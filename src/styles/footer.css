@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  background-color: #dededb;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #9f9f9f;
+}
+.contacts {
+  width: 280px;
+}
+.ph_number {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts {
+    margin-top: 12px;
+    text-align: center;
+  }
+  .ph_number {
+    justify-content: center;
+  }
+}
